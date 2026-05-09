@@ -23,12 +23,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: right;
-    gap:50px;
+    gap:40px;
     a:hover{
     color:#166BA0;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px #166BA0, 0px 0px 5px #166BA0,0px 0px 5px #166BA0;
+    padding: 10px 30px;
+}
+}
+.search{
+     display: flex;
+     justify-content: flex-end;
+     margin:0;
+      a:hover{
+    color:#166BA0;
+    border-radius: 5%;
     box-shadow: 0px 0px 5px #166BA0, 0px 0px 5px #166BA0,0px 0px 5px #166BA0;
     padding: 20px 60px;
+      }
 }
-    
-}
-
